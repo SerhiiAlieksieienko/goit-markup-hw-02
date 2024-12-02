@@ -116,10 +116,11 @@ a{
 .team-title {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .team-list {}
@@ -146,15 +147,17 @@ a{
 /* endregion */
 
 /* #region Our Portfolio */
-.portfolio {}
+.portfolio {
+    background-color: #FFFFFF
+}
 
 .port-title {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .port-list {}
